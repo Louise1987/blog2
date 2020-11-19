@@ -1,19 +1,19 @@
 import React from 'react';
 import '../App.css';
 import lotusflower from '../image/lotusflower.jpg';
-import { useHistory } from 'react-router-dom';
+// import { useHistory } from 'react-router-dom';
 
 // // LÄNK TILL BLOGGSIDA
 const Home = () => {	
-	const history = useHistory();
-	const handleClick = () => {
-		history.push('/Blogpage');
-	}
+	// const history = useHistory();
+	// const handleClick = () => {
+	// 	history.push('/Blogpage');
+	// }
 
 	return (
 			<main className="blog-page">
 				<section className="blog-block">
-						<section id="link" onClick={handleClick}>
+						<section id="link">
 							<section className="blog-link">
 								<section id="left-column">
 									<span className="blog-date">datum</span>

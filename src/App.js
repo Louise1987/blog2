@@ -17,17 +17,14 @@ render(){
 		
 			<Head/>
 			<ReactHover options={optionsCursorTrueWithMargin}>
-			<ReactHover.Trigger type='trigger'>
-      	<Home/>
-				</ReactHover.Trigger>
-			
-      	<Home/>
-				
-
+			<ReactHover.Trigger type="trigger">
+				<p style={{ background: '#abbcf1'}}>Någon text</p>
+				</ReactHover.Trigger>		
       	<Home/>
       	<Home/>
-				
-				</ReactHover>
+      	<Home/>
+      	<Home/>
+			</ReactHover>
     </div>
   );
 	}
