@@ -3,25 +3,12 @@ import '../App.css';
 import lotusflower from '../image/lotusflower.jpg';
 import { useHistory } from 'react-router-dom';
 
-// LÄNK TILL BLOGGSIDA
+// // LÄNK TILL BLOGGSIDA
 const Home = () => {	
 	const history = useHistory();
 	const handleClick = () => {
 		history.push('/Blogpage');
 	}
-
-// HOVER FUNKTION
-	// function changeTextColor(e) {
-	// 	e.target.style.color = '#bdbfbd';
-	// } 
-	
-	// 	function changeHeadColor(e) {
-	// 		e.target.style.color = '#72ab72';
-	// 	}
-
-
-	
-
 
 	return (
 			<main className="blog-page">

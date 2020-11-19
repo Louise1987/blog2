@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ReactHover from 'react-hover';
 import './App.css';
-import Home from '../src/components/Home';
+import Home from '../src/components/Blog';
 import Head from '../src/components/Head';
 
 	const optionsCursorTrueWithMargin = {
